@@ -87,9 +87,8 @@
   position: absolute;
   top: 43.3vw;
   padding-left: 31px;
-
+  max-width: 306px;
   @media screen and(min-width:$mobile) {
-    max-width: 306px;
     top: 208px;
   }
 
