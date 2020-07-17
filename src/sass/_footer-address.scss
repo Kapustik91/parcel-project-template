@@ -89,12 +89,22 @@
     align-items: center;
     margin-bottom: 20px;
     color: $light-dark-text-color;
+
+    &:hover,
+    &:focus {
+      color: $orange-color;
+    }
   }
   .mail {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     color: $light-dark-text-color;
+
+    &:hover,
+    &:focus {
+      color: $orange-color;
+    }
   }
   .icon {
     fill: currentColor;
