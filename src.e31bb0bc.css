@@ -1794,11 +1794,17 @@ hr {
   margin-bottom: 20px;
   color: #9da4bd;
 }
+.address .link:hover, .address .link:focus {
+  color: #ff6c00;
+}
 .address .mail {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
   color: #9da4bd;
+}
+.address .mail:hover, .address .mail:focus {
+  color: #ff6c00;
 }
 .address .icon {
   fill: currentColor;
